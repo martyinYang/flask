@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela de Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .login-box {
+            background-color: #fff;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-right: 5px; /* Afastamento da borda direita */
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        /* Centralização dos campos */
+        .input-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="input-container">
+                <input type="text" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+            </div>
+            <a href="pet" class="nav-link">Entrar</a>
+        </form>
+    </div>
+</body>
+</html>
